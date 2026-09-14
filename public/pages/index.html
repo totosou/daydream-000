@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DayDream-000 Proxy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #8b0ab8 0%, #630aba 50%, #1c1724 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .status {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: #00ff95;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .features {
+            text-align: left;
+            display: inline-block;
+            margin: 30px 0;
+        }
+        
+        .features ul {
+            list-style: none;
+        }
+        
+        .features li {
+            padding: 10px 0;
+            font-size: 1.1em;
+        }
+        
+        .features li:before {
+            content: "✓ ";
+            color: #00ff95;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌙 DayDream-000</h1>
+        <p>A Node.js-powered Proxy Server</p>
+        
+        <div class="status">
+            <span class="status-indicator"></span>
+            <strong>Server Status: Online</strong>
+        </div>
+        
+        <div class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Cloaking & Privacy</li>
+                <li>Tabbed Browsing</li>
+                <li>History & Bookmarks</li>
+                <li>Multiple Transports</li>
+                <li>WISP Protocol Support</li>
+                <li>Custom Theming</li>
+            </ul>
+        </div>
+        
+        <p style="margin-top: 40px; font-size: 0.9em; opacity: 0.7;">
+            Based on <a href="https://github.com/NxroProxy/DayDreamX" style="color: #00ff95; text-decoration: none;">DayDreamX</a>
+        </p>
+    </div>
+</body>
+</html>
